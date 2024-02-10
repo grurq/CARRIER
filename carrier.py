@@ -151,6 +151,7 @@ def docs(ID):
             print(term.move_xy(CONSOLEX,14)+'記号一覧')
             print(term.move_xy(CONSOLEX,15)+'床 空白 置場 . 荷物 $ 置場の荷物 *')
             print(term.move_xy(CONSOLEX,16)+'床の人 @ 置き場の人 + 壁 #')
+            print(term.move_xy(CONSOLEX,18)+'CARRIER by grurqApps (c)2021-')
 
 def changestartpos():
     for x in range(XMAX):
